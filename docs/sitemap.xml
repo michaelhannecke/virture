@@ -5,9 +5,6 @@
     <loc>https://www.virture.de/categories/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/tags/general/</loc>
-    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.virture.de/categories/general/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -62,13 +59,16 @@
     <loc>https://www.virture.de/posts/2023/get-external-ip/</loc>
     <lastmod>2023-04-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/tags/info/</loc>
+    <loc>https://www.virture.de/tags/ip/</loc>
     <lastmod>2023-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/github/</loc>
     <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/posts/publish-website-github/</loc>
+    <loc>https://www.virture.de/tags/hugo/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/2023/publish-website-github/</loc>
     <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/website/</loc>

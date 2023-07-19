@@ -13,15 +13,6 @@
     <language>en</language>
     <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>general</title>
-      <link>https://www.virture.de/tags/general/</link>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>linux</title>
       <link>https://www.virture.de/tags/linux/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
@@ -76,11 +67,11 @@
     </item>
     
     <item>
-      <title>info</title>
-      <link>https://www.virture.de/tags/info/</link>
+      <title>IP</title>
+      <link>https://www.virture.de/tags/ip/</link>
       <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/tags/info/</guid>
+      <guid>https://www.virture.de/tags/ip/</guid>
       <description></description>
     </item>
     
@@ -90,6 +81,15 @@
       <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://www.virture.de/tags/hugo/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/hugo/</guid>
       <description></description>
     </item>
     
