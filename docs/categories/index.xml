@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on virture.de - just a blog</title>
+    <link>https://www.virture.de/categories/</link>
+    <description>Recent content in Categories on virture.de - just a blog</description>
+    <image>
+      <title>virture.de - just a blog</title>
+      <url>https://www.virture.de/images/mh.jpg</url>
+      <link>https://www.virture.de/images/mh.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>general</title>
+      <link>https://www.virture.de/categories/general/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://www.virture.de/categories/cloud/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://www.virture.de/categories/devops/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://www.virture.de/categories/programming/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
