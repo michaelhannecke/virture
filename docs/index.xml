@@ -58,6 +58,15 @@
     </item>
     
     <item>
+      <title>Publish a website on github pages</title>
+      <link>https://www.virture.de/posts/publish-website-github/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/publish-website-github/</guid>
+      <description>Publish a website on gitub pages</description>
+    </item>
+    
+    <item>
       <title>Azure CLI - activate azure cli autocomplete in zsh</title>
       <link>https://www.virture.de/posts/2023/azure-cli-autocomplete/</link>
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
