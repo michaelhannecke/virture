@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>azure</title>
+      <link>https://www.virture.de/tags/azure/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/azure/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linux</title>
       <link>https://www.virture.de/tags/linux/</link>
@@ -27,15 +36,6 @@
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/tags/shell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>azure</title>
-      <link>https://www.virture.de/tags/azure/</link>
-      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/tags/azure/</guid>
       <description></description>
     </item>
     
@@ -99,6 +99,15 @@
       <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI/ML</title>
+      <link>https://www.virture.de/tags/ai/ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/ai/ml/</guid>
       <description></description>
     </item>
     

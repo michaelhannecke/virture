@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.virture.de/posts/2023/ai-102-cert-leraning-path/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/azure/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.virture.de/categories/</loc>
-    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/cloud/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/general/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
@@ -11,26 +29,11 @@
     <loc>https://www.virture.de/tags/linux/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/posts/</loc>
-    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.virture.de/tags/shell/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/2023/linux-shell-special-chars/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/tags/</loc>
-    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/</loc>
-    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/tags/azure/</loc>
-    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/categories/cloud/</loc>
-    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/devops/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
@@ -82,6 +85,10 @@
   </url><url>
     <loc>https://www.virture.de/about/</loc>
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/ai/ml/</loc>
+  </url><url>
+    <loc>https://www.virture.de/categories/ai/ml/</loc>
   </url><url>
     <loc>https://www.virture.de/archives/</loc>
   </url><url>

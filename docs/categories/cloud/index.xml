@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A guide to passing the Microsoft AI-102 Certification</title>
+      <link>https://www.virture.de/posts/2023/ai-102-cert-leraning-path/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/ai-102-cert-leraning-path/</guid>
+      <description>A Guide to Passing the Microsoft AI-102 Certification</description>
+    </item>
+    
     <item>
       <title>Terraform Azure - Login and remote state</title>
       <link>https://www.virture.de/posts/2023/terraform-azure-login/</link>
