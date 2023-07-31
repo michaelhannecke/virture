@@ -11,13 +11,13 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cloud</title>
-      <link>https://www.virture.de/categories/cloud/</link>
-      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <title>azure</title>
+      <link>https://www.virture.de/categories/azure/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/categories/cloud/</guid>
+      <guid>https://www.virture.de/categories/azure/</guid>
       <description></description>
     </item>
     
@@ -31,15 +31,6 @@
     </item>
     
     <item>
-      <title>devops</title>
-      <link>https://www.virture.de/categories/devops/</link>
-      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/categories/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>programming</title>
       <link>https://www.virture.de/categories/programming/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
@@ -49,7 +40,16 @@
     </item>
     
     <item>
-      <title>AI/ML</title>
+      <title>terraform</title>
+      <link>https://www.virture.de/categories/terraform/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/terraform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai/ml</title>
       <link>https://www.virture.de/categories/ai/ml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
