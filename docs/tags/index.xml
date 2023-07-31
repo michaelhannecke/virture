@@ -49,33 +49,6 @@
     </item>
     
     <item>
-      <title>linux</title>
-      <link>https://www.virture.de/tags/linux/</link>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shell</title>
-      <link>https://www.virture.de/tags/shell/</link>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/tags/shell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://www.virture.de/tags/python/</link>
-      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>terraform</title>
       <link>https://www.virture.de/tags/terraform/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
@@ -90,6 +63,33 @@
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.virture.de/tags/linux/</link>
+      <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://www.virture.de/tags/shell/</link>
+      <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://www.virture.de/tags/python/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/python/</guid>
       <description></description>
     </item>
     
