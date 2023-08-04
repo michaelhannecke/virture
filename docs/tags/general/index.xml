@@ -11,32 +11,14 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Special Chars in a Linux Shell</title>
-      <link>https://www.virture.de/posts/2023/linux-shell-special-chars/</link>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      <title>PII De-Identification techniques</title>
+      <link>https://www.virture.de/posts/2023/de-identification-techniques/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/posts/2023/linux-shell-special-chars/</guid>
-      <description>How to Reset VSCode</description>
-    </item>
-    
-    <item>
-      <title>Getting your own external IP via curl</title>
-      <link>https://www.virture.de/posts/2023/get-external-ip/</link>
-      <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/posts/2023/get-external-ip/</guid>
-      <description>How to get your own external IP via curl</description>
-    </item>
-    
-    <item>
-      <title>Publish a website on github pages</title>
-      <link>https://www.virture.de/posts/publish-website-github/</link>
-      <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/posts/publish-website-github/</guid>
-      <description>Publish a website on gitub pages</description>
+      <guid>https://www.virture.de/posts/2023/de-identification-techniques/</guid>
+      <description>Types of PII de-identifaction techniques</description>
     </item>
     
   </channel>
