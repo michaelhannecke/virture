@@ -12,6 +12,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://www.virture.de/categories/ai/ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bias in Machine Learning</title>
+      <link>https://www.virture.de/posts/2023/__bias-in-ml/</link>
+      <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/__bias-in-ml/</guid>
+      <description>Unlocking Fairness in AI: Navigating the Challenges of Bias in Machine Learning</description>
+    </item>
+    
+    <item>
       <title>Hyperparameter Tuning</title>
       <link>https://www.virture.de/posts/2023/hyperparameter-tuning/</link>
       <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
