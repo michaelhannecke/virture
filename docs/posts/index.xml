@@ -11,13 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Case for Recurrent Neural Network and Convolutional Neural Network</title>
+      <link>https://www.virture.de/posts/2023/aa-rnn-cmm/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/aa-rnn-cmm/</guid>
+      <description>Use Case for Recurrent Neural Network (RNN) and Convolutional Neural Network (CNN)</description>
+    </item>
+    
     <item>
       <title>L1 and L2 Regularization</title>
-      <link>https://www.virture.de/posts/2023/aa-l1-and-l2-regularization/</link>
+      <link>https://www.virture.de/posts/2023/l1-and-l2-regularization/</link>
       <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/posts/2023/aa-l1-and-l2-regularization/</guid>
+      <guid>https://www.virture.de/posts/2023/l1-and-l2-regularization/</guid>
       <description>L1 versus L2 Regularization</description>
     </item>
     
