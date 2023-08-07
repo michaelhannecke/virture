@@ -13,11 +13,20 @@
     <language>en</language>
     <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Use Case for Recurrent Neural Network and Convolutional Neural Network</title>
-      <link>https://www.virture.de/posts/2023/aa-rnn-cmm/</link>
+      <title>Methods to prevent overfitting</title>
+      <link>https://www.virture.de/posts/2023/aa-methods-to-prevent-overfitting/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/posts/2023/aa-rnn-cmm/</guid>
+      <guid>https://www.virture.de/posts/2023/aa-methods-to-prevent-overfitting/</guid>
+      <description>Methods to prevent overfitting</description>
+    </item>
+    
+    <item>
+      <title>Use Case for Recurrent Neural Network and Convolutional Neural Network</title>
+      <link>https://www.virture.de/posts/2023/rnn-cmm/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/rnn-cmm/</guid>
       <description>Use Case for Recurrent Neural Network (RNN) and Convolutional Neural Network (CNN)</description>
     </item>
     
