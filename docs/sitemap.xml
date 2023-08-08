@@ -3,42 +3,93 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.virture.de/tags/machine-learning/</loc>
-    <lastmod>2023-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/posts/2023/aa-methods-to-prevent-overfitting/</loc>
-    <lastmod>2023-08-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/</loc>
-    <lastmod>2023-08-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/</loc>
+    <lastmod>2023-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/</loc>
+    <lastmod>2023-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/2023/aa-when-to-use-ml/</loc>
+    <lastmod>2023-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/convolutional-neural-network/</loc>
+    <lastmod>2023-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/2023/methods-to-prevent-overfitting/</loc>
+    <lastmod>2023-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/overfitting/</loc>
+    <lastmod>2023-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/performance/</loc>
+    <lastmod>2023-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/recurrent-neural-network/</loc>
+    <lastmod>2023-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/regression/</loc>
     <lastmod>2023-08-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/2023/rnn-cmm/</loc>
     <lastmod>2023-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/</loc>
-    <lastmod>2023-08-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.virture.de/posts/2023/l1-and-l2-regularization/</loc>
     <lastmod>2023-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/tags/general/</loc>
+    <loc>https://www.virture.de/tags/normalization/</loc>
+    <lastmod>2023-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/regularization/</loc>
+    <lastmod>2023-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/data-protection/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/data-protection/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/hyperparameter/</loc>
     <lastmod>2023-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/2023/hyperparameter-tuning/</loc>
     <lastmod>2023-08-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.virture.de/tags/pii/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.virture.de/posts/2023/de-identification-techniques/</loc>
     <lastmod>2023-08-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.virture.de/tags/confusion-matrix/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.virture.de/posts/2023/confusion-matrix/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/performance-evaluation/</loc>
     <lastmod>2023-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/2023/collaborative-and-content-based-filtering/</loc>
     <lastmod>2023-08-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.virture.de/tags/recommendation-systems/</loc>
+    <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/classification/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.virture.de/posts/2023/classification-loss-functions/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/loss-function/</loc>
     <lastmod>2023-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/ai-services/</loc>
@@ -59,16 +110,28 @@
     <loc>https://www.virture.de/posts/2023/auto-ml/</loc>
     <lastmod>2023-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/categories/</loc>
-    <lastmod>2023-07-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.virture.de/posts/2023/ai-102-cert-leraning-path/</loc>
     <lastmod>2023-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/certification/</loc>
     <lastmod>2023-07-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.virture.de/tags/machine-learining/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/automation/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/iac/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/programming/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.virture.de/categories/programming/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/python/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/2023/reset-vscode/</loc>
@@ -98,7 +161,7 @@
     <loc>https://www.virture.de/posts/2023/linux-shell-special-chars/</loc>
     <lastmod>2023-06-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/tags/python/</loc>
+    <loc>https://www.virture.de/tags/python-environment/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/2023/python-environment/</loc>
@@ -122,7 +185,13 @@
     <loc>https://www.virture.de/tags/website/</loc>
     <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.virture.de/tags/azure-cli/</loc>
+    <lastmod>2023-03-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.virture.de/posts/2023/azure-cli-autocomplete/</loc>
+    <lastmod>2023-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/cli/</loc>
     <lastmod>2023-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/imprint/</loc>

@@ -11,22 +11,148 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>machine learning</title>
       <link>https://www.virture.de/tags/machine-learning/</link>
-      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>general</title>
-      <link>https://www.virture.de/tags/general/</link>
+      <title>convolutional neural network</title>
+      <link>https://www.virture.de/tags/convolutional-neural-network/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/convolutional-neural-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>overfitting</title>
+      <link>https://www.virture.de/tags/overfitting/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/overfitting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>performance</title>
+      <link>https://www.virture.de/tags/performance/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recurrent neural network</title>
+      <link>https://www.virture.de/tags/recurrent-neural-network/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/recurrent-neural-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regression</title>
+      <link>https://www.virture.de/tags/regression/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>normalization</title>
+      <link>https://www.virture.de/tags/normalization/</link>
+      <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/normalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regularization</title>
+      <link>https://www.virture.de/tags/regularization/</link>
+      <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/regularization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data protection</title>
+      <link>https://www.virture.de/tags/data-protection/</link>
       <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/tags/general/</guid>
+      <guid>https://www.virture.de/tags/data-protection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hyperparameter</title>
+      <link>https://www.virture.de/tags/hyperparameter/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/hyperparameter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PII</title>
+      <link>https://www.virture.de/tags/pii/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/pii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>confusion matrix</title>
+      <link>https://www.virture.de/tags/confusion-matrix/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/confusion-matrix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>performance evaluation</title>
+      <link>https://www.virture.de/tags/performance-evaluation/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/performance-evaluation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recommendation systems</title>
+      <link>https://www.virture.de/tags/recommendation-systems/</link>
+      <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/recommendation-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>classification</title>
+      <link>https://www.virture.de/tags/classification/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>loss function</title>
+      <link>https://www.virture.de/tags/loss-function/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/loss-function/</guid>
       <description></description>
     </item>
     
@@ -67,6 +193,42 @@
     </item>
     
     <item>
+      <title>machine learining</title>
+      <link>https://www.virture.de/tags/machine-learining/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/machine-learining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>https://www.virture.de/tags/automation/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://www.virture.de/tags/programming/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://www.virture.de/tags/python/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>terraform</title>
       <link>https://www.virture.de/tags/terraform/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
@@ -103,11 +265,11 @@
     </item>
     
     <item>
-      <title>python</title>
-      <link>https://www.virture.de/tags/python/</link>
+      <title>python environment</title>
+      <link>https://www.virture.de/tags/python-environment/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/tags/python/</guid>
+      <guid>https://www.virture.de/tags/python-environment/</guid>
       <description></description>
     </item>
     
@@ -144,6 +306,15 @@
       <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>azure cli</title>
+      <link>https://www.virture.de/tags/azure-cli/</link>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/tags/azure-cli/</guid>
       <description></description>
     </item>
     

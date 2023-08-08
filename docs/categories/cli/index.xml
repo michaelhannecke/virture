@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cli on virture.de - just a blog</title>
+    <link>https://www.virture.de/categories/cli/</link>
+    <description>Recent content in cli on virture.de - just a blog</description>
+    <image>
+      <title>virture.de - just a blog</title>
+      <url>https://www.virture.de/images/mh.jpg</url>
+      <link>https://www.virture.de/images/mh.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure CLI - activate azure cli autocomplete in zsh</title>
+      <link>https://www.virture.de/posts/2023/azure-cli-autocomplete/</link>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/azure-cli-autocomplete/</guid>
+      <description>How to enble azure cli autocomplete on macos zsh</description>
+    </item>
+    
+  </channel>
+</rss>

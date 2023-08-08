@@ -11,13 +11,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data protection</title>
+      <link>https://www.virture.de/categories/data-protection/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/data-protection/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>azure</title>
       <link>https://www.virture.de/categories/azure/</link>
       <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/categories/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iac</title>
+      <link>https://www.virture.de/categories/iac/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/iac/</guid>
       <description></description>
     </item>
     
@@ -45,6 +63,15 @@
       <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/categories/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://www.virture.de/categories/cli/</link>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/cli/</guid>
       <description></description>
     </item>
     
