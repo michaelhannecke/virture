@@ -1,0 +1,130 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>terraform-gcp-remote-state- draft | virture.de - just a blog</title><meta name=keywords content><meta name=description content="terraform-gcp-remote-state - draft"><meta name=author content="Michael"><link rel=canonical href=https://www.virture.de/posts/2023/xx-blog-post-gcp/><link crossorigin=anonymous href=/assets/css/stylesheet.1f28a8812024f3d082361c1abf7913baf83dd8b4bbf6c1463b9dbf1bb0c2d81d.css integrity="sha256-HyiogSAk89CCNhwav3kTuvg92LS79sFGO52/G7DC2B0=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://www.virture.de/images/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://www.virture.de/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.virture.de/favicon-32x32.png><link rel=apple-touch-icon href=https://www.virture.de/apple-touch-icon.png><link rel=mask-icon href=https://www.virture.de/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><meta property="og:title" content="terraform-gcp-remote-state- draft"><meta property="og:description" content="terraform-gcp-remote-state - draft"><meta property="og:type" content="article"><meta property="og:url" content="https://www.virture.de/posts/2023/xx-blog-post-gcp/"><meta property="og:image" content="https://www.virture.de/posts/2023/xx-blog-post-gcp/images/img01.png"><meta property="article:section" content="posts"><meta property="article:published_time" content="2023-01-06T00:00:00+00:00"><meta property="article:modified_time" content="2023-01-06T00:00:00+00:00"><meta property="og:site_name" content="virture"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://www.virture.de/posts/2023/xx-blog-post-gcp/images/img01.png"><meta name=twitter:title content="terraform-gcp-remote-state- draft"><meta name=twitter:description content="terraform-gcp-remote-state - draft"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://www.virture.de/posts/"},{"@type":"ListItem","position":3,"name":"terraform-gcp-remote-state- draft","item":"https://www.virture.de/posts/2023/xx-blog-post-gcp/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"terraform-gcp-remote-state- draft","name":"terraform-gcp-remote-state- draft","description":"terraform-gcp-remote-state - draft","keywords":[],"articleBody":"Step by Step guide to setup terraform with GCP cloud storage as a backend intriduction dddd requirements gcp sda locall installed documentation can be founde here\nyou need your project_ID and the Region where you want to create the remote state storage\nInitial gcloud configuration Set the GCP Cloud Environment Create Enviroment Variable File As we have to reference a couple of environment variables, it is recommended to create a hidden file containing all required variables. Don’t forget to add that secrets-file to your .gitignore file if you’re planning to push all code to a git repo!\nWe’ll directly use the terraform notation for environment variables, so that our terraform code will be able to read the information as-well late on. Every nvironment variable starting with TF_VAR_ will be available for the terraform code.\nWithin your local terminal: [ replace your project id, location, zone ]\ntouch .secrets echo \"export TF_VAR_project=\" \u003e\u003e .secrets echo \"export TF_VAR_region=\" \u003e\u003e .secrets echo \"export TF_VAR_rs_bucket=\" \u003e\u003e .secrets source .secrets Next we have to initialize the gcp console with the correct settings:\ngcloud config set project $TF_VAR_project Next we have to set our own user credentials to access the required API’s in the following steps You’ll be forewarded to the GCP login screen.\ngcloud auth login gcloud auth application-default login gcloud config set compute/region $TF_VAR_region Ceate a service account for the current project Follow the name conventions of your company, we recommend to use a naming cenvention like:\nsa---tf\ngcloud iam service-accounts create \\ -description=\"terraform service account project \" \\ -display-name=\"terraform service account\" (take care of the leading two dashes..upfront description and display-name, might get a bit blurry depending on your screen resolution) The newly created account will be listed in the google cloud consle under project -\u003e IAM -\u003e Service Accounts.\nAdd the service account name to the environment list, this will come in handy later.\necho \"export TF_VAR_sa_account=\" \u003e\u003e .secrets souce .secrets Enable required API When we’re using a “fresh” created GCP project, we have to anable a couple of APIs. You can easily do this via the Google cloud console “APIs \u0026 Services”: At least we have to enable the IAM Service Account Credentials API and Cloud Resource Manager API within the project.\nAdd necessary roles for the newly created service account\nWe now need to provied necessary roles and permissions. For easy of this example we willwell go with Editor permission for the service account. In production envroment it is recommended to follwo thre least priviledge pronviple and reduce permissions as far as poosible. We will elaborate on this a bit more a later blog post.\ngcloud projects add-iam-policy-binding $TF_VAR_project \\ --member=\"serviceAccount:$TF_VAR_sa_account@$TF_VAR_project.iam.gserviceaccount.com\" \\ --role=\"roles/editor\" For this sandbox example we will impersonate the service account to make our terraform changes. In production environment you should use service account credentials andstore them in a credentials fault on gcp. We will dig into this in another article.\nfor impersonating, we need the existing poliies for the service account and store them in a local policy.json file.\ngcloud iam service-accounts get-iam-policy $TF_VAR_sa_account@$TF_VAR_project.iam.gserviceaccount.com \\ --format=json \u003e policy.json Modyfy the policy.json to add yourself as a member to the role ServiceAccount tokenCreator. Remember to add the rest of policies that already exist.\n{ \"bindings\":[ { \"members\":[ \"user:\" ], \"role\": \"roles/iam.serviceAccountTokenCreator\" } ], } Now we have to update the policies:\ngcloud iam service-accounts set-iam-policy $TF_VAR_sa_account@$TF_VAR_project.iam.gserviceaccounts.com \\ policy.json Terraform structure We will use ther following general terraform file structure:\nFOLDER | main.tf | storage.tf | variables.tf | services.tf | .backend-config For this example we will use ../gcp/sandbox as our project folder.\nmain.tf The main.tf is somwhow the entry point of our terraform setup. In this file we will initialise the google provider. Use the follwong as starting point ans ake sure so save it exactly as main.tf.\nThis is the first version of main.tf, we have to add additional info later.\n# main tf variables.tf This file will hold all variables:\n## variables.tf # all vaiable definitons will go here # in other files referneced as var. variable \"region\" { type = string description = \"Default Region from env\" } variable \"project\" { type = string description = \"Default project_name from env\" } variable \"sa_account\" { type = string description = \"Storage account name from env\" } variable \"rs_bucket\" { type = string description = \"Name of bucked used to store remote tf state\" } bucket.tf This file will hold all storage bucket definitions. For our use case we will define the bucket we want to use for the remote state file. we will enable versioning and prohibit public access (versioning enabled= true and public-access_prevention = “enforced”)\n## bucket.tf ## Definiton of storage # create initial bucket resource \"google_storage_bucket\" \"sbx_backend_bucket\" { name = var.rs_bucket force_destroy = false project = var.project location = var.region storage_class = \"STANDARD\" public_access_prevention = \"enforced\" versioning { enabled = true } } We first have to create the bucket, befor we can use it for storing the remote state. Of course we could have configured the bucket via ther google cloud console or cli, but the idea ist to use as much infrastructure as code as possible.\nNow we have to intiaialize the bucket. Run Terraform init, format, validate first - there should be no errors:\nterraform init # this will download the provider files and initialize the GCP provider. terrafom fmt # to have a proper formatting, not necessary but it is awlays better to die in beauty.. terraform vaildate # there should be no error at this state terraform plan terraform apply You now shuold have a bucket…\ndefine bucket to be used as backend we need to add the backend information to the main.tf. You could place the backend information and versioning in separae files (backend.tf, version.tf) but fir simplicity we#ll keep in main here.\nAdd the foollowing lines to your main.tf:\n# settinmg remote state terraform { required_version = \"~\u003e1.5.0\" backend \"gcs\" { } } Terraform need the remote bucket information very early during the intiation pahse (terraform init), therefore it is not allowed to use varables in the backend defintion. it would be feasible to put the bucket information direktly in the backend configuration:\n... backend \"gcs\" { bucket = prefix = ","wordCount":"1176","inLanguage":"en","image":"https://www.virture.de/posts/2023/xx-blog-post-gcp/images/img01.png","datePublished":"2023-01-06T00:00:00Z","dateModified":"2023-01-06T00:00:00Z","author":{"@type":"Person","name":"Michael"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.virture.de/posts/2023/xx-blog-post-gcp/"},"publisher":{"@type":"Organization","name":"virture.de - just a blog","logo":{"@type":"ImageObject","url":"https://www.virture.de/images/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=https://www.virture.de accesskey=h title="home (Alt + H)"><img src=https://www.virture.de/images/robot.png alt aria-label=logo height=35>home</a><div class=logo-switches></div></div><ul id=menu><li><a href=https://www.virture.de/posts title=blog><span>blog</span></a></li><li><a href=https://www.virture.de/search/ title="search (Alt + /)" accesskey=/><span>search</span></a></li><li><a href=https://www.virture.de/categories/ title=categories><span>categories</span></a></li><li><a href=https://www.virture.de/tags/ title=tags><span>tags</span></a></li><li><a href=https://www.virture.de/archives title=archive><span>archive</span></a></li><li><a href=https://www.virture.de/about/ title=about><span>about</span></a></li><li><a href=https://www.virture.de/imprint/ title=imprint><span>imprint</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://www.virture.de>Home</a>&nbsp;»&nbsp;<a href=https://www.virture.de/posts/>Posts</a></div><h1 class=post-title>terraform-gcp-remote-state- draft</h1><div class=post-description>terraform-gcp-remote-state - draft</div><div class=post-meta><span title='2023-01-06 00:00:00 +0000 UTC'>January 6, 2023</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;1176 words&nbsp;·&nbsp;Michael</div></header><figure class=entry-cover><img loading=lazy src=https://www.virture.de/images/img01.png alt></figure><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>Table of Contents</span></summary><div class=inner><nav id=TableOfContents><ul><li><a href=#step-by-step-guide-to-setup-terraform-with-gcp-cloud-storage-as-a-backend>Step by Step guide to setup terraform with GCP cloud storage as a backend</a><ul><li><a href=#intriduction>intriduction</a></li><li><a href=#initial-gcloud-configuration>Initial gcloud configuration</a></li><li><a href=#define-bucket-to-be-used-as-backend>define bucket to be used as backend</a></li></ul></li></ul></nav></div></details></div><div class=post-content><h2 id=step-by-step-guide-to-setup-terraform-with-gcp-cloud-storage-as-a-backend>Step by Step guide to setup terraform with GCP cloud storage as a backend<a hidden class=anchor aria-hidden=true href=#step-by-step-guide-to-setup-terraform-with-gcp-cloud-storage-as-a-backend>#</a></h2><h3 id=intriduction>intriduction<a hidden class=anchor aria-hidden=true href=#intriduction>#</a></h3><p>dddd
+requirements
+gcp sda locall installed
+documentation can be founde here</p><p>you need your project_ID and the Region where you want to create the remote state storage</p><h3 id=initial-gcloud-configuration>Initial gcloud configuration<a hidden class=anchor aria-hidden=true href=#initial-gcloud-configuration>#</a></h3><h4 id=set-the-gcp-cloud-environment>Set the GCP Cloud Environment<a hidden class=anchor aria-hidden=true href=#set-the-gcp-cloud-environment>#</a></h4><ol><li>Create Enviroment Variable File</li></ol><p>As we have to reference a couple of environment variables, it is recommended to create a hidden file containing all required variables.
+Don&rsquo;t forget to add that secrets-file to your .gitignore file if you&rsquo;re planning to push all code to a git repo!</p><p>We&rsquo;ll directly use the terraform notation for environment variables, so that our terraform code will be able to read the information as-well late on.
+Every nvironment variable starting with TF_VAR_ will be available for the terraform code.</p><p>Within your local terminal:
+[ replace your project id, location, zone ]</p><pre tabindex=0><code>touch .secrets
+echo &#34;export TF_VAR_project=&lt;your-project-id&gt;&#34; &gt;&gt; .secrets
+echo &#34;export TF_VAR_region=&lt;your-region&gt;&#34; &gt;&gt; .secrets
+echo &#34;export TF_VAR_rs_bucket=&lt;yourbucketname&gt;&#34; &gt;&gt; .secrets
+
+source .secrets
+</code></pre><p>Next we have to initialize the gcp console with the correct settings:</p><pre tabindex=0><code>gcloud config set project $TF_VAR_project
+</code></pre><p>Next we have to set our own user credentials to access the required API&rsquo;s in the following steps
+You&rsquo;ll be forewarded to the GCP login screen.</p><pre tabindex=0><code>gcloud auth login
+gcloud auth application-default login
+</code></pre><pre tabindex=0><code>gcloud config set compute/region $TF_VAR_region
+</code></pre><ol start=2><li>Ceate a service account for the current project</li></ol><p>Follow the name conventions of your company, we recommend to use a naming cenvention like:</p><p>sa-&lt;project_name>--tf</p><pre tabindex=0><code>gcloud iam service-accounts create &lt;your-sa-account-name&gt; \
+ -description=&#34;terraform service account project &lt;Projekt_name&gt;&#34; \
+ -display-name=&#34;terraform service account&#34;
+</code></pre><p>(take care of the leading two dashes..upfront description and display-name, might get a bit blurry depending on your screen resolution)
+The newly created account will be listed in the google cloud consle under project -> IAM -> Service Accounts.</p><p>Add the service account name to the environment list, this will come in handy later.</p><pre tabindex=0><code>echo &#34;export TF_VAR_sa_account=&lt;your service account name&gt;&#34; &gt;&gt; .secrets
+
+souce .secrets
+</code></pre><ol start=3><li><p>Enable required API
+When we&rsquo;re using a &ldquo;fresh&rdquo; created GCP project, we have to anable a couple of APIs. You can easily do this via the Google cloud console &ldquo;APIs & Services&rdquo;:
+At least we have to enable the <strong>IAM Service Account Credentials API</strong> and <strong>Cloud Resource Manager API</strong> within the project.</p></li><li><p>Add necessary roles for the newly created service account</p></li></ol><p>We now need to provied necessary roles and permissions. For easy of this example we willwell go with Editor permission for the service account. In production envroment it is recommended to follwo thre least priviledge pronviple and reduce permissions as far as poosible. We will elaborate on this a bit more a later blog post.</p><pre tabindex=0><code>gcloud projects add-iam-policy-binding $TF_VAR_project \
+ --member=&#34;serviceAccount:$TF_VAR_sa_account@$TF_VAR_project.iam.gserviceaccount.com&#34; \
+ --role=&#34;roles/editor&#34;
+</code></pre><p>For this sandbox example we will impersonate the service account to make our terraform changes. In production environment you should use service account credentials andstore them in a credentials fault on gcp. We will dig into this in another article.</p><p>for impersonating, we need the existing poliies for the service account and store them in a local policy.json file.</p><pre tabindex=0><code>gcloud iam service-accounts get-iam-policy $TF_VAR_sa_account@$TF_VAR_project.iam.gserviceaccount.com \
+  --format=json &gt; policy.json
+</code></pre><p>Modyfy the policy.json to add yourself as a member to the role ServiceAccount tokenCreator. Remember to add the rest of policies that already exist.</p><pre tabindex=0><code>{
+ &#34;bindings&#34;:[
+  {
+   &#34;members&#34;:[
+    &#34;user:&lt;user@domain&gt;&#34;
+   ],
+   &#34;role&#34;: &#34;roles/iam.serviceAccountTokenCreator&#34; 
+  }
+ ], 
+
+&lt;the rest of the policy comes here&gt;
+
+}
+</code></pre><p>Now we have to update the policies:</p><pre tabindex=0><code>gcloud iam service-accounts set-iam-policy $TF_VAR_sa_account@$TF_VAR_project.iam.gserviceaccounts.com \ 
+  policy.json
+</code></pre><h4 id=terraform-structure>Terraform structure<a hidden class=anchor aria-hidden=true href=#terraform-structure>#</a></h4><p>We will use ther following general terraform file structure:</p><pre tabindex=0><code>FOLDER
+| main.tf
+| storage.tf
+| variables.tf
+| services.tf
+| .backend-config
+</code></pre><p>For this example we will use ../gcp/sandbox as our project folder.</p><h4 id=maintf>main.tf<a hidden class=anchor aria-hidden=true href=#maintf>#</a></h4><p>The main.tf is somwhow the entry point of our terraform setup. In this file we will initialise the google provider. Use the follwong as starting point ans ake sure so save it exactly as main.tf.</p><p>This is the first version of main.tf, we have to add additional info later.</p><pre tabindex=0><code># main tf
+</code></pre><h4 id=variablestf>variables.tf<a hidden class=anchor aria-hidden=true href=#variablestf>#</a></h4><p>This file will hold all variables:</p><pre tabindex=0><code>## variables.tf
+# all vaiable definitons will go here
+# in other files referneced as var.&lt;variablename&gt;
+
+variable &#34;region&#34; {
+  type        = string
+  description = &#34;Default Region from env&#34;
+
+}
+
+variable &#34;project&#34; {
+  type        = string
+  description = &#34;Default project_name from env&#34;
+}
+
+variable &#34;sa_account&#34; {
+  type        = string
+  description = &#34;Storage account name from env&#34;
+}
+
+
+variable &#34;rs_bucket&#34; {
+  type        = string
+  description = &#34;Name of bucked used to store remote tf state&#34;
+}
+</code></pre><h4 id=buckettf>bucket.tf<a hidden class=anchor aria-hidden=true href=#buckettf>#</a></h4><p>This file will hold all storage bucket definitions. For our use case we will define the bucket we want to use for the remote state file.
+we will enable versioning and prohibit public access (versioning enabled= true and public-access_prevention = &ldquo;enforced&rdquo;)</p><pre tabindex=0><code>## bucket.tf
+## Definiton of storage
+
+# create initial bucket
+resource &#34;google_storage_bucket&#34; &#34;sbx_backend_bucket&#34; {
+  name                     = var.rs_bucket
+  force_destroy            = false
+  project                  = var.project
+  location                 = var.region
+  storage_class            = &#34;STANDARD&#34;
+  public_access_prevention = &#34;enforced&#34;
+
+  versioning {
+    enabled = true
+  }
+}
+</code></pre><p>We first have to create the bucket, befor we can use it for storing the remote state. Of course we could have configured the bucket via ther google cloud console or cli, but the idea ist to use as much infrastructure as code as possible.</p><p>Now we have to intiaialize the bucket. Run Terraform init, format, validate first - there should be no errors:</p><pre tabindex=0><code>terraform init # this will download the provider files and initialize the GCP provider.
+terrafom fmt # to have a proper formatting, not necessary but it is awlays better to die in beauty..
+terraform vaildate # there should be no error at this state
+
+terraform plan
+
+terraform apply
+</code></pre><p>You now shuold have a bucket&mldr;</p><h3 id=define-bucket-to-be-used-as-backend>define bucket to be used as backend<a hidden class=anchor aria-hidden=true href=#define-bucket-to-be-used-as-backend>#</a></h3><p>we need to add the backend information to the main.tf. You could place the backend information and versioning in separae files (backend.tf, version.tf) but fir simplicity we#ll keep in main here.</p><p>Add the foollowing lines to your main.tf:</p><pre tabindex=0><code># settinmg remote state
+terraform {
+  required_version = &#34;~&gt;1.5.0&#34;
+  backend &#34;gcs&#34; {
+    
+  }
+}
+</code></pre><p>Terraform need the remote bucket information very early during the intiation pahse (terraform init), therefore it is not allowed to use varables in the backend defintion.
+it would be feasible to put the bucket information direktly in the backend configuration:</p><pre tabindex=0><code>...
+backend &#34;gcs&#34; {
+  bucket = &lt;bucket name&gt;
+  prefix = &lt;prefix/subfolder&#34;
+  impersonate_service_account = &lt;service-account email&gt;
+}
+...
+</code></pre><p>But for security reasion we prefere to put this information in a separate file which than can be exluded in any git hub repository</p><p>Create a file named .backend and put the above declaration with your values in it:</p><pre tabindex=0><code># .backend-config
+prefix = &#34;&lt;prefix-name&gt;&#34;
+bucket = &#34;&lt;remote-state-bucket&#34;
+impersonate_service_account=&#34;&lt;serviceaccount email&gt;&#34;
+</code></pre><p>Save everything, run tf fmt and validate. If there&rsquo;s an error thrown hava loook regarding any typos.
+Before we now can run plan/apply to activate our changes ,we have to run a terraform init first, which will change the state from local to ther remote storage.
+We have to provide the backend config as a parameter:</p><pre tabindex=0><code>
+terraform init -backend-config=.backend-config
+</code></pre><p>You have to acknowldege the move from local to remote backend, after this youre done!"</p></div><footer class=post-footer><ul class=post-tags></ul><nav class=paginav><a class=prev href=https://www.virture.de/posts/2023/azure-cli-autocomplete/><span class=title>« Prev</span><br><span>Azure CLI - activate azure cli autocomplete in zsh</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2023 <a href=https://www.virture.de>virture.de - just a blog</a></span>
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
