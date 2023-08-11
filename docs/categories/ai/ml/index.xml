@@ -12,11 +12,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://www.virture.de/categories/ai/ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Horovod Distributed Training Framework</title>
+      <link>https://www.virture.de/posts/2023/aa-horovord-distribution/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/aa-horovord-distribution/</guid>
+      <description>Horovod Distributed Training Framework Horovod is a distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet. It is designed to make distributed training easy and efficient. Horovod uses a ring-based communication pattern to efficiently distribute data across multiple GPUs or machines. This can significantly improve the training speed of deep learning models.
+Horovod is also designed to be easy to use. It can be used with existing TensorFlow, Keras, PyTorch, and Apache MXNet code with minimal changes.</description>
+    </item>
+    
+    <item>
       <title>When to use ML and when not</title>
-      <link>https://www.virture.de/posts/2023/aa-when-to-use-ml/</link>
+      <link>https://www.virture.de/posts/2023/when-to-use-ml/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/posts/2023/aa-when-to-use-ml/</guid>
+      <guid>https://www.virture.de/posts/2023/when-to-use-ml/</guid>
       <description>What are the reasons to use machine learning? An example of a business problem where the use of ML would be appropriate is generating personalized recommendations. In this case, the solution to the problem requires complex logic, and we would want to provide personalized recommendations at scale with quick turnaround times.
 Requires complex logic Since developing personalized recommendations requires complex logic, ML is an appropriate tool to consider. Requires scalability Serving millions of requests for personalized recommendations every second is a challenge.</description>
     </item>
