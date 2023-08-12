@@ -21,14 +21,5 @@
       <description>How to login to azue for terrafrom deployments</description>
     </item>
     
-    <item>
-      <title>terraform-gcp-remote-state- draft</title>
-      <link>https://www.virture.de/posts/2023/xx-blog-post-gcp/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/posts/2023/xx-blog-post-gcp/</guid>
-      <description>terraform-gcp-remote-state - draft</description>
-    </item>
-    
   </channel>
 </rss>
