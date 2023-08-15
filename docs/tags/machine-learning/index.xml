@@ -11,13 +11,42 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Horovod Distributed Training Framework</title>
-      <link>https://www.virture.de/posts/2023/aa-horovord-distribution/</link>
+      <title>Auotoregressive Intregrated Moving Average (ARIMA)</title>
+      <link>https://www.virture.de/posts/2023/aa_arima/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/aa_arima/</guid>
+      <description>Autoregressive integrated moving average (ARIMA)
+Autoregressive integrated moving average (ARIMA) is a statistical model that is used to forecast future values of a time series. It is a generalization of the autoregressive moving average (ARMA) model, which only considers the autocorrelations between the current value and the past values of the time series. ARIMA also considers the moving average of the residuals of the ARMA model, which helps to improve the accuracy of the forecasts.</description>
+    </item>
+    
+    <item>
+      <title>SoftMax Activation Function</title>
+      <link>https://www.virture.de/posts/2023/softmax/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/softmax/</guid>
+      <description>Softmax Activation Function The softmax activation function is a non-linear function that is commonly used in the output layer of neural networks for multi-class classification problems. It takes a vector of real numbers as input and outputs a vector of probabilities, where the probabilities sum to 1. This means that the softmax function can be used to represent a probability distribution over the possible output classes.
+The softmax function is defined as follows:</description>
+    </item>
+    
+    <item>
+      <title>Analytics Random Cut Forest (RCF)</title>
+      <link>https://www.virture.de/posts/2023/rcf/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/posts/2023/aa-horovord-distribution/</guid>
+      <guid>https://www.virture.de/posts/2023/rcf/</guid>
+      <description>Analytics Random Cut Forest (RCF) Analytics Random Cut Forest (RCF) is an unsupervised machine learning algorithm that is used for anomaly detection. In RCF, each tree is constructed by randomly selecting a subset of features and then randomly selecting a subset of data points from the training dataset. This process helps to ensure that the trees are more diverse and less correlated, which makes them more effective at detecting anomalies.</description>
+    </item>
+    
+    <item>
+      <title>Horovod Distributed Training Framework</title>
+      <link>https://www.virture.de/posts/2023/horovord-distribution/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/horovord-distribution/</guid>
       <description>Horovod Distributed Training Framework Horovod is a distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet. It is designed to make distributed training easy and efficient. Horovod uses a ring-based communication pattern to efficiently distribute data across multiple GPUs or machines. This can significantly improve the training speed of deep learning models.
 Horovod is also designed to be easy to use. It can be used with existing TensorFlow, Keras, PyTorch, and Apache MXNet code with minimal changes.</description>
     </item>
