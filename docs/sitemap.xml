@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.virture.de/tags/accounts/</loc>
-    <lastmod>2023-08-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.virture.de/tags/aws/</loc>
     <lastmod>2023-08-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -18,6 +15,9 @@
     <lastmod>2023-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/cloud/</loc>
+    <lastmod>2023-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/iac/</loc>
     <lastmod>2023-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/</loc>
@@ -171,9 +171,6 @@
     <lastmod>2023-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/automation/</loc>
-    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/categories/iac/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/programming/</loc>

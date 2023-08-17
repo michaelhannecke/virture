@@ -23,5 +23,50 @@ Setting Up Multiple Profiles You can add profiles directly to your AWS configura
 Here&amp;rsquo;s an example for ~/.</description>
     </item>
     
+    <item>
+      <title>Azure AI Applied AI Services</title>
+      <link>https://www.virture.de/posts/2023/az-applied-ai/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/az-applied-ai/</guid>
+      <description>Azure Applied AI Services</description>
+    </item>
+    
+    <item>
+      <title>Azure AutoML process</title>
+      <link>https://www.virture.de/posts/2023/auto-ml/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/auto-ml/</guid>
+      <description>Azure Auto ML Process</description>
+    </item>
+    
+    <item>
+      <title>A guide to passing the Microsoft AI-102 Certification</title>
+      <link>https://www.virture.de/posts/2023/ai-102-cert-leraning-path/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/ai-102-cert-leraning-path/</guid>
+      <description>A Guide to Passing the Microsoft AI-102 Certification</description>
+    </item>
+    
+    <item>
+      <title>Terraform Azure - Login and remote state</title>
+      <link>https://www.virture.de/posts/2023/terraform-azure-login/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/terraform-azure-login/</guid>
+      <description>How to login to azue for terrafrom deployments</description>
+    </item>
+    
+    <item>
+      <title>Azure CLI - activate azure cli autocomplete in zsh</title>
+      <link>https://www.virture.de/posts/2023/azure-cli-autocomplete/</link>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/azure-cli-autocomplete/</guid>
+      <description>How to enble azure cli autocomplete on macos zsh</description>
+    </item>
+    
   </channel>
 </rss>
