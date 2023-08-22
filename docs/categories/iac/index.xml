@@ -11,13 +11,24 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/iac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/iac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Startup Scipt Master and Worker Nodes</title>
+      <link>https://www.virture.de/posts/2023/aa-kubernetes-nodes-setup/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/aa-kubernetes-nodes-setup/</guid>
+      <description>Startup scrritps to install kubernetes master and worker nodes These statup scripts require a UBUNTU 20.04 LTS base image!
+If you want to use Ubuntun 22.04 LTS, exchange for the kubenretes part &amp;lsquo;xenial&amp;rsquo; with &amp;lsquo;jummy&amp;rsquo;.
+Script for the master node on AWS #!/bin/bash # Load necessary kernel modules for containerd cat &amp;lt;&amp;lt; EOF | sudo tee /etc/modules-load.d/containerd.conf overlay br_netfilter EOF sudo modprobe overlay sudo modprobe br_netfilter # Configure kernel networking requirements for Kubernetes cat &amp;lt;&amp;lt; EOF | sudo tee /etc/sysctl.</description>
+    </item>
+    
     <item>
       <title>AWS multiple accounts profiles with cli/terraform</title>
-      <link>https://www.virture.de/posts/2023/aa-aws-multiple-profiles/</link>
+      <link>https://www.virture.de/posts/2023/aws-multiple-profiles/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/posts/2023/aa-aws-multiple-profiles/</guid>
+      <guid>https://www.virture.de/posts/2023/aws-multiple-profiles/</guid>
       <description>AWS multiple accounts/profiles If you&amp;rsquo;re working with multiple AWS accounts or environments, using named profiles with the AWS CLI can be very handy. Named profiles are configurations of AWS access keys, secret keys, and default regions. Here&amp;rsquo;s how you can set up and use multiple profiles:
 Setting Up Multiple Profiles You can add profiles directly to your AWS configuration file (~/.aws/config) and your credentials file (~/.aws/credentials).
 Here&amp;rsquo;s an example for ~/.</description>

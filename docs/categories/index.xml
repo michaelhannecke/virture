@@ -11,11 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>aws</title>
       <link>https://www.virture.de/categories/aws/</link>
-      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/categories/aws/</guid>
       <description></description>
@@ -24,18 +24,36 @@
     <item>
       <title>cloud</title>
       <link>https://www.virture.de/categories/cloud/</link>
-      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/categories/cloud/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>gcp</title>
+      <link>https://www.virture.de/categories/gcp/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/gcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>iac</title>
       <link>https://www.virture.de/categories/iac/</link>
-      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/categories/iac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://www.virture.de/categories/kubernetes/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/kubernetes/</guid>
       <description></description>
     </item>
     
