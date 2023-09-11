@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>kubernetes on virture.de - just a blog</title>
-    <link>https://www.virture.de/tags/kubernetes/</link>
-    <description>Recent content in kubernetes on virture.de - just a blog</description>
+    <title>gcp cli on virture.de - just a blog</title>
+    <link>https://www.virture.de/tags/gcp-cli/</link>
+    <description>Recent content in gcp cli on virture.de - just a blog</description>
     <image>
       <title>virture.de - just a blog</title>
       <url>https://www.virture.de/images/mh.jpg</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/gcp-cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes - create a cluster with one line</title>
       <link>https://www.virture.de/posts/2023/aa-kubernetes-on-gcp-onliner/</link>

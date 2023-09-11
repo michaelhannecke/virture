@@ -2,49 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.virture.de/tags/aws/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/categories/aws/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.virture.de/categories/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/cloud/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/gcp/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/gcp/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/gcp-cli/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/iac/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/kubernetes/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/kubernetes/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/posts/2023/aa-kubernetes-nodes-setup/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <loc>https://www.virture.de/posts/2023/aa-kubernetes-on-gcp-onliner/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/tags/terraform/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/2023/kubernetes-nodes-setup/</loc>
     <lastmod>2023-08-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.virture.de/tags/aws/</loc>
+    <lastmod>2023-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/aws/</loc>
+    <lastmod>2023-08-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.virture.de/posts/2023/aws-multiple-profiles/</loc>
+    <lastmod>2023-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/terraform/</loc>
     <lastmod>2023-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/algorithm/</loc>
