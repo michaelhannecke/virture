@@ -14,10 +14,10 @@
     <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes - create a cluster with one line</title>
-      <link>https://www.virture.de/posts/2023/aa-kubernetes-on-gcp-onliner/</link>
+      <link>https://www.virture.de/posts/2023/kubernetes-on-gcp-onliner/</link>
       <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/posts/2023/aa-kubernetes-on-gcp-onliner/</guid>
+      <guid>https://www.virture.de/posts/2023/kubernetes-on-gcp-onliner/</guid>
       <description>Create a Kubernetes managed Cluster on Google GCP with one line of code !!Be Careful: running ths may incur costs on your project - make sure to delete the resources when finished!!
 prerequisits A project with Kubernetes API enabled GCP CLI installed An environment variable CLUSTER_NAME defined with the name of the cluster Compute/Region set in project configuration to your preferred Region default VPC in place. gcloud config set compute/zone &amp;lt;preferred-region&amp;gt; PROJECT_ID=$(gcloud config get-value project) CLUSTER_NAME=&amp;lt;cluster-name&amp;gt; The Code : gcloud beta container clusters create $CLUSTER_NAME \ --cluster-version=latest \ --machine-type=e2-standard-4 \ --enable-autoscaling \ --min-nodes=1 \ --max-nodes=3 \ --num-nodes=1 Get Credentials gcloud container sclusters get-credentials $CLUSTER_NAME Check pods</description>
     </item>
