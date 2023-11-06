@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.virture.de/tags/ai-services/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+    <loc>https://www.virture.de/tags/aws/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/aws/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/cloud/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/python/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/python/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/2023/aa-aws-sso-login/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/ai-services/</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/gcp/</loc>
@@ -20,15 +44,6 @@
     <loc>https://www.virture.de/posts/2023/gcp-ai-ml-services/</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/posts/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/tags/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.virture.de/tags/azure/</loc>
     <lastmod>2023-09-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -38,13 +53,7 @@
     <loc>https://www.virture.de/posts/2023/azure-ai-ml-services/</loc>
     <lastmod>2023-09-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/tags/aws/</loc>
-    <lastmod>2023-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/categories/aws/</loc>
-    <lastmod>2023-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/posts/2023/aa-aws-ai-ml-services-copy/</loc>
+    <loc>https://www.virture.de/posts/2023/aws-ai-ml-services/</loc>
     <lastmod>2023-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/gcp-cli/</loc>
@@ -191,7 +200,7 @@
     <loc>https://www.virture.de/posts/2023/auto-ml/</loc>
     <lastmod>2023-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/posts/2023/ai-102-cert-leraning-path/</loc>
+    <loc>https://www.virture.de/posts/2023/ai-102-cert-learning-path/</loc>
     <lastmod>2023-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/certification/</loc>
@@ -207,9 +216,6 @@
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/programming/</loc>
-    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/tags/python/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/2023/reset-vscode/</loc>
