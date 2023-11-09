@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>python on virture.de - just a blog</title>
-    <link>https://www.virture.de/categories/python/</link>
-    <description>Recent content in python on virture.de - just a blog</description>
+    <title>vscode on virture.de - just a blog</title>
+    <link>https://www.virture.de/categories/vscode/</link>
+    <description>Recent content in vscode on virture.de - just a blog</description>
     <image>
       <title>virture.de - just a blog</title>
       <url>https://www.virture.de/images/mh.jpg</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/vscode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Selecting a Python Virtual Environment in VS Code for Jupyter Notebooks</title>
       <link>https://www.virture.de/posts/2023/aa-select-python-env-in-vscode/</link>
@@ -19,15 +19,6 @@
       
       <guid>https://www.virture.de/posts/2023/aa-select-python-env-in-vscode/</guid>
       <description>Selecting a Python Virtual Environment in VS Code for Jupyter Notebooks</description>
-    </item>
-    
-    <item>
-      <title>SSO to AWS via CLI or SDK</title>
-      <link>https://www.virture.de/posts/2023/aws-sso-login/</link>
-      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/posts/2023/aws-sso-login/</guid>
-      <description>SSO to AWS via CLI or SDK</description>
     </item>
     
   </channel>

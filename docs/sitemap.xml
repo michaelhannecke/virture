@@ -17,19 +17,31 @@
     <loc>https://www.virture.de/posts/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.virture.de/categories/programming/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.virture.de/tags/python/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/python/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/posts/2023/aa-aws-sso-login/</loc>
+    <loc>https://www.virture.de/posts/2023/aa-select-python-env-in-vscode/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/2023/aws-sso-login/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/vscode/</loc>
+    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/vscode/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/ai-services/</loc>
@@ -215,9 +227,6 @@
     <loc>https://www.virture.de/tags/programming/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/categories/programming/</loc>
-    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.virture.de/posts/2023/reset-vscode/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -225,9 +234,6 @@
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/2023/terraform-azure-login/</loc>
-    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/tags/vscode/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/general/</loc>
