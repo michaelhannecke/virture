@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ai/ml on virture.de - just a blog</title>
+    <title>Ai/Ml on virture.de - just a blog</title>
     <link>https://www.virture.de/categories/ai/ml/</link>
-    <description>Recent content in ai/ml on virture.de - just a blog</description>
+    <description>Recent content in Ai/Ml on virture.de - just a blog</description>
     <image>
       <title>virture.de - just a blog</title>
       <url>https://www.virture.de/images/mh.jpg</url>
       <link>https://www.virture.de/images/mh.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://www.virture.de/categories/ai/ml/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/ai/ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GCP AI and ML Services Overview</title>
       <link>https://www.virture.de/posts/2023/gcp-ai-ml-services/</link>

@@ -11,9 +11,27 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>aws</title>
+      <title>Macos</title>
+      <link>https://www.virture.de/categories/macos/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://www.virture.de/categories/tools/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aws</title>
       <link>https://www.virture.de/categories/aws/</link>
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
       
@@ -22,7 +40,7 @@
     </item>
     
     <item>
-      <title>cloud</title>
+      <title>Cloud</title>
       <link>https://www.virture.de/categories/cloud/</link>
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
       
@@ -31,7 +49,7 @@
     </item>
     
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://www.virture.de/categories/python/</link>
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
       
@@ -40,7 +58,7 @@
     </item>
     
     <item>
-      <title>programming</title>
+      <title>Programming</title>
       <link>https://www.virture.de/categories/programming/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       
@@ -49,7 +67,7 @@
     </item>
     
     <item>
-      <title>vscode</title>
+      <title>Vscode</title>
       <link>https://www.virture.de/categories/vscode/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       
@@ -58,7 +76,16 @@
     </item>
     
     <item>
-      <title>gcp</title>
+      <title>Ai/Ml</title>
+      <link>https://www.virture.de/categories/ai/ml/</link>
+      <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/categories/ai/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gcp</title>
       <link>https://www.virture.de/categories/gcp/</link>
       <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -67,7 +94,7 @@
     </item>
     
     <item>
-      <title>azure</title>
+      <title>Azure</title>
       <link>https://www.virture.de/categories/azure/</link>
       <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -76,7 +103,7 @@
     </item>
     
     <item>
-      <title>iac</title>
+      <title>Iac</title>
       <link>https://www.virture.de/categories/iac/</link>
       <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -85,7 +112,7 @@
     </item>
     
     <item>
-      <title>kubernetes</title>
+      <title>Kubernetes</title>
       <link>https://www.virture.de/categories/kubernetes/</link>
       <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -94,7 +121,7 @@
     </item>
     
     <item>
-      <title>algorithm</title>
+      <title>Algorithm</title>
       <link>https://www.virture.de/categories/algorithm/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
@@ -103,7 +130,7 @@
     </item>
     
     <item>
-      <title>data protection</title>
+      <title>Data Protection</title>
       <link>https://www.virture.de/categories/data-protection/</link>
       <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
       
@@ -112,7 +139,7 @@
     </item>
     
     <item>
-      <title>terraform</title>
+      <title>Terraform</title>
       <link>https://www.virture.de/categories/terraform/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
       
@@ -121,7 +148,7 @@
     </item>
     
     <item>
-      <title>general</title>
+      <title>General</title>
       <link>https://www.virture.de/categories/general/</link>
       <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -130,20 +157,11 @@
     </item>
     
     <item>
-      <title>cli</title>
+      <title>Cli</title>
       <link>https://www.virture.de/categories/cli/</link>
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.virture.de/categories/cli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ai/ml</title>
-      <link>https://www.virture.de/categories/ai/ml/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.virture.de/categories/ai/ml/</guid>
       <description></description>
     </item>
     
