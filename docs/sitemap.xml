@@ -3,27 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.virture.de/categories/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/container/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/categories/kubernetes/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/minikube/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/posts/2023/aa-mimikube-ssh-into-container/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <loc>https://www.virture.de/posts/2023/aa-minikube-on-macos/</loc>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/</loc>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/2023/minikube-ssh-into-container/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/2023/brew-cleanup/</loc>

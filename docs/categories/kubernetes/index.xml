@@ -11,13 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minikube on MacOS</title>
+      <link>https://www.virture.de/posts/2023/aa-minikube-on-macos/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/aa-minikube-on-macos/</guid>
+      <description>Minikube in MacOS</description>
+    </item>
+    
     <item>
       <title>Minikube - SSH into running container</title>
-      <link>https://www.virture.de/posts/2023/aa-mimikube-ssh-into-container/</link>
+      <link>https://www.virture.de/posts/2023/minikube-ssh-into-container/</link>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.virture.de/posts/2023/aa-mimikube-ssh-into-container/</guid>
+      <guid>https://www.virture.de/posts/2023/minikube-ssh-into-container/</guid>
       <description>Minikube - SSH into Container</description>
     </item>
     
