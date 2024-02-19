@@ -3,30 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.virture.de/categories/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/container/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/categories/kubernetes/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/minikube/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/2023/aa-mimikube-ssh-into-container/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/tags/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.virture.de/posts/2023/brew-cleanup/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/posts/2023/aa-brew-cleanup/</loc>
+    <loc>https://www.virture.de/categories/general/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/macos/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.virture.de/categories/macos/</loc>
-    <lastmod>2024-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/posts/</loc>
-    <lastmod>2024-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/tags/</loc>
-    <lastmod>2024-01-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.virture.de/tags/tools/</loc>
-    <lastmod>2024-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/categories/tools/</loc>
-    <lastmod>2024-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/aws/</loc>
@@ -93,9 +102,6 @@
     <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/kubernetes/</loc>
-    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/categories/kubernetes/</loc>
     <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/posts/2023/kubernetes-on-gcp-onliner/</loc>
@@ -253,9 +259,6 @@
   </url><url>
     <loc>https://www.virture.de/posts/2023/terraform-azure-login/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.virture.de/categories/general/</loc>
-    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.virture.de/tags/linux/</loc>
     <lastmod>2023-06-18T00:00:00+00:00</lastmod>

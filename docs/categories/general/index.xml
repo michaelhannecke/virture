@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.virture.de/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clear Brew Cache</title>
+      <link>https://www.virture.de/posts/2023/brew-cleanup/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.virture.de/posts/2023/brew-cleanup/</guid>
+      <description>Clear Brew cache</description>
+    </item>
+    
     <item>
       <title>Special Chars in a Linux Shell</title>
       <link>https://www.virture.de/posts/2023/linux-shell-special-chars/</link>
